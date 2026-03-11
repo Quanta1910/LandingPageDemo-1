@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0px 30px;
+    background-color: #f2f2f2;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 5px 8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(55, 54, 54);
+    margin: 0px 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+nav a:hover{
+    border-bottom: 2px solid aquamarine;
+}
+
+#signup-btn{
+    border: none;
+    background-color:aquamarine;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+main .hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container p{
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+}
+
+.container h2{
+    font-size: 6rem;
+}
+
+.container h2 #business{
+    color:aquamarine;
+}
+
+.container .btn-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .btn-container button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.container .btn-container #btn-1{
+    background-color: aquamarine;
+    color: white;
+}
+
+.container .btn-container #btn-2{
+    box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.25);
+}
+
+main .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+main .cards .card{
+    box-shadow: 1px 1px 24px rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.5rem;
+}
